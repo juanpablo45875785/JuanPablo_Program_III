@@ -1,6 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
+static class suma
+{
+    static void Main(string[]args)
+    {
+        int uno=2;
+        int dos=5;
+        int resultado = uno + dos;
 
-Console.WriteLine("JUAN PABLO 123");
-Console.WriteLine("es hora de irnos");
-Console.WriteLine("hoy es miercole");
+        Console.WriteLine("el resultado es: " + resultado);
 
+    }
+}
